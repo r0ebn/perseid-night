@@ -1,0 +1,33 @@
+{
+  "name": "perseid-night",
+  "version": "1.0.0",
+  "description": "Perseid Night — a public stargazing night kit built with Hyper Elements (ticket email, event page, printable ticket + star chart PDF, social poster).",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/build.tsx",
+    "typecheck": "tsc --noEmit",
+    "screenshots": "tsx scripts/screenshot.ts"
+  },
+  "dependencies": {
+    "@hyper-elements/email-clients": "^0.4.16",
+    "@hyper-elements/react": "^0.4.6",
+    "@react-pdf/renderer": "^4.9.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "satori": "^0.33.5"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.2.5",
+    "@fontsource/lora": "^5.2.5",
+    "@fontsource/space-mono": "^5.2.5",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
